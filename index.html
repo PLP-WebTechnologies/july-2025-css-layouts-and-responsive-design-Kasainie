@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox and Grid</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Web Design</h1>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Main Content Grid -->
+        <div class="main-grid">
+            <main class="main-content">
+                <section class="intro-section">
+                    <h2>Introduction</h2>
+                    <p>Welcome to a demonstration of modern web layout techniques. This page utilizes **CSS Grid** for its main structural layout and **Flexbox** for arranging content within individual sections, ensuring a design that is both flexible and responsive. The entire page adapts seamlessly from a single-column mobile view to a multi-column desktop layout.</p>
+                </section>
+
+                <section class="gallery-section">
+                    <h2>Photo Gallery (Flexbox)</h2>
+                    <div class="photo-gallery">
+                        <div class="photo-card">
+                            <h3>Photo One</h3>
+                            <img src="https://placehold.co/300x200/2980b9/ffffff?text=Image+1" alt="Placeholder image for the gallery.">
+                            <p>This section uses Flexbox to create a responsive photo grid.</p>
+                        </div>
+                        <div class="photo-card">
+                            <h3>Photo Two</h3>
+                            <img src="https://placehold.co/300x200/3498db/ffffff?text=Image+2" alt="Placeholder image for the gallery.">
+                            <p>The items automatically wrap to the next line as needed.</p>
+                        </div>
+                        <div class="photo-card">
+                            <h3>Photo Three</h3>
+                            <img src="https://placehold.co/300x200/8e44ad/ffffff?text=Image+3" alt="Placeholder image for the gallery.">
+                            <p>No more complex floats or inline-block layouts!</p>
+                        </div>
+                        <div class="photo-card">
+                            <h3>Photo Four</h3>
+                            <img src="https://placehold.co/300x200/9b59b6/ffffff?text=Image+4" alt="Placeholder image for the gallery.">
+                            <p>This layout is clean, efficient, and easy to maintain.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <aside class="sidebar">
+                <h2>Recent Articles</h2>
+                <p>A collection of recent articles, often featured on a website sidebar.</p>
+                <ul>
+                    <li>The Future of CSS</li>
+                    <li>Best Practices for RWD</li>
+                    <li>Getting Started with Grid</li>
+                    <li>Advanced Flexbox Tips</li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Responsive Web Page | Built with raw CSS, Flexbox, and Grid</p>
+    </footer>
+
+</body>
+</html>
